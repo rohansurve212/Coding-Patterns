@@ -6,7 +6,7 @@
 
 //There is one difference though: in this problem, the sliding window size is not fixed.
 
-const smallest_subarray_sum_greater_than_S = (S, arr) => {
+const smallest_subarray_sum_greater_thanOrEqualTo_S = (S, arr) => {
   let windowSum = 0.0
   let smallestWindowSize = Infinity
   let windowStart = 0
