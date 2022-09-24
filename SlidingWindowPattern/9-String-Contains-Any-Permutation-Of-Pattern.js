@@ -45,8 +45,8 @@ const if_string_contains_permutation_of_pattern = (str, pattern) => {
   return false
 }
 
-console.log(if_string_contains_permutation_of_pattern('bcdyaxbcd', 'bcdyabcdx'))
-console.log(if_string_contains_permutation_of_pattern('bbyccxadd', 'bcdyabcdx'))
-console.log(if_string_contains_permutation_of_pattern('odicf', 'dc'))
-console.log(if_string_contains_permutation_of_pattern('oidbcaf', 'abc'))
-console.log(if_string_contains_permutation_of_pattern('aaacb', 'abc'))
+console.log(if_string_contains_permutation_of_pattern('bcdyaxbcd', 'dyax'))
+// console.log(if_string_contains_permutation_of_pattern('bbyccxadd', 'bcdyabcdx'))
+// console.log(if_string_contains_permutation_of_pattern('odicf', 'dc'))
+// console.log(if_string_contains_permutation_of_pattern('oidbcaf', 'abc'))
+// console.log(if_string_contains_permutation_of_pattern('aaacb', 'abc'))
